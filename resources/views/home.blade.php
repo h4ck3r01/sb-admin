@@ -212,7 +212,7 @@
                    
                     <!-- /.panel -->
                 @endsection
-                @include('widgets.panel', array('header'=>true, 'as'=>'pane2'))
+                    @widget('panel', array('as'=>'pane2', 'header'=>true))
                 </div>
                 <!-- /.col-lg-8 -->
                 <div class="col-lg-4">
@@ -220,7 +220,7 @@
                     @section ('cchart11_panel_body')
                     @include('widgets.charts.clinechart')
                     @endsection
-                    @include('widgets.panel', array('header'=>true, 'as'=>'cchart11'))
+                    @widget('panel', array('as'=>'cchart11', 'header'=>true))
 
                     @section ('pane1_panel_title', 'Notifications Panel')
                     @section ('pane1_panel_body')
@@ -279,9 +279,9 @@
                         <!-- /.panel-body -->
                   
                     @endsection
-                    @include('widgets.panel', array('header'=>true, 'as'=>'pane1'))
+
+                    @widget('panel', array('as'=>'pane1', 'header'=>true))
                       
-                    
                     <!-- /.panel -->
                     @section ('pane3_panel_title', 'Chat')
                     @section ('pane3_panel_body')
@@ -400,7 +400,7 @@
                     </div>
                     <!-- /.panel .chat-panel -->
                     @endsection
-                    @include('widgets.panel', array('header'=>true, 'as'=>'pane3'))
+                    @widget('panel', array('as'=>'pane3', 'header'=>true))
                 </div>
 
                 <!-- /.col-lg-4 -->
