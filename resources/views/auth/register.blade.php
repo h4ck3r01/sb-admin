@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <br/><br/><br/>
-                @section ('register_panel_title', 'Locação de Mobiliários para Eventos')
+                @section ('register_panel_title', 'SB-Admin')
                 @section ('register_panel_body')
 
                     {{ Form::open(['route' => 'register']) }}

@@ -1,4 +1,4 @@
 <div class="container" align="center">
-	<small>&copy; Laravel </small>
+    <small>&copy; Laravel</small>
 </div> 
 

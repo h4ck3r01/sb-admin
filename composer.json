@@ -8,6 +8,7 @@
         "php": "^7.1.3",
         "albertcht/invisible-recaptcha": "^1.8",
         "arrilot/laravel-widgets": "^3.12",
+        "dompdf/dompdf": "^0.8.2",
         "fideloper/proxy": "^4.0",
         "kris/laravel-form-builder": "1.*",
         "laravel/framework": "5.6.*",

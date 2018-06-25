@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <br/><br/><br/>
-                @section ('login_panel_title','Locação de Mobiliários para Eventos')
+                @section ('login_panel_title','SB-Admin')
                 @section ('login_panel_body')
 
                     {{ Form::open(['route' => 'login']) }}

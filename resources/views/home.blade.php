@@ -281,7 +281,7 @@
                     @endsection
 
                     @widget('panel', array('as'=>'pane1', 'header'=>true))
-                      
+
                     <!-- /.panel -->
                     @section ('pane3_panel_title', 'Chat')
                     @section ('pane3_panel_body')
