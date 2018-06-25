@@ -54,7 +54,9 @@
                     {{ Form::close() }}
 
                 @endsection
-                @include('widgets.panel', array('as'=>'login', 'header'=>true))
+
+                @widget('panel', array('as'=>'login', 'header'=>true))
+
             </div>
         </div>
     </div>
